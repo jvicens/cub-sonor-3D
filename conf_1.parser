@@ -1,0 +1,38 @@
+% General
+sources_n		= 1
+fs			= 44100
+
+images_n 		= 6
+images_max_order	= 1
+abs_filter_order	= 0
+dst_filter_order	= 0
+
+verbose_sec		= 10
+
+% Listener
+listener_id 		= 1003
+listener_to 		= "ToFile"
+listener_filename 	= "../data/sounds/prova3D.wav"
+listener_file_duration 	= 10
+listener_path_x 	= [10]
+listener_path_y 	= [10]
+listener_path_z 	= [2.5]
+listener_path_t 	= [0]
+
+% Rectangular room
+room_vertex1 		= [0, 0, 0]
+room_vertex2 		= [20, 20, 10]
+room_walls_absortion 	= [0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
+room_TR60_method	= "Sabine"
+% room_TR60_value	= 1
+room_RtoD 		= 0.5
+
+% Source 1
+source_from_1 		= "FromFile"
+source_filename_1 	= "../data/sounds/44100/grill_1_1.wav"
+source_volume_1		= 0.5
+source_path_x_1		= [5,  5]
+source_path_y_1		= [20, 20]
+source_path_z_1		= [0,  0]
+source_path_t_1		= [0,  10]
+

@@ -1,0 +1,15 @@
+DIRECTORI='./44100/';
+FS=44100;
+NBITS=16;
+
+d=dir;
+
+for k=1:length(d)
+    if (isempty(findstr(d(n).name,'.wav')))
+        continue;
+    end
+
+    [y,fs,nbits]=wavread(d(n).name);
+    
+    wavwrite (resample(y, FS, fs), FS, NBITS,strcat(DIRECTORI,d(n).name));
+end
