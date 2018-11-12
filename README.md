@@ -2,7 +2,7 @@
 ## Natural Interface and Tridimensional Audio Sytems
 
 Sourcecode from telecom engineering master thesis defended on June 2011. 
-Codes to build a tridimensional audio systems that responds to the fiducials on a natural user interface using TUIO protocol.
+Codes to build a tridimensional audio systems that responds to the fiducials on a natural user interface using [TUIO protocol](https://www.tuio.org/).
 
 Julián Vicens.
 
